@@ -1,10 +1,9 @@
-[Music]
 welcome back everyone
 in this episode i want to talk about
 storage
 now what do i mean by that well
 specifically when i refer to storage
-i i mean where does your program store
+i mean where does your program store
 its data
 now what we've looked at so far in
 python is
@@ -80,7 +79,7 @@ that's not so useful so what we want to
 be able to do is to store stuff
 beyond the lifetime of the program and
 that's what i want to talk about today
-[Music]
+
 for the last 50 years or so the main way
 that computers have stored data when the
 power is turned off
@@ -293,7 +292,7 @@ you open files you move forwards and
 backwards in them
 and you can read and write data to the
 file
-[Music]
+
 okay so let's look at that from python's
 point of view
 now what are we going to do first of all
@@ -546,7 +545,7 @@ and indeed it does so
 we can open files right to files
 read from files that's the basics of
 handling files
-[Music]
+
 now so far we've been storing text
 strings to
 file but a lot of the data we want to
@@ -668,7 +667,7 @@ inefficient in terms of processing power
 and it's inefficient in terms of storage
 if actually what we want to store is
 numbers so what can we do instead
-[Music]
+
 so how about we just store these numbers
 in a binary file
 seems to make more sense than text
@@ -798,7 +797,7 @@ strings and back again and it's using
 really just the minimum amount of data
 we need to store this particular type of
 data
-[Music]
+
 now we've successfully stored our binary
 data in the file we should
 probably figure out how to get it back
@@ -920,7 +919,7 @@ we want to be able to incrementally read
 data in and write data back out and that
 gives us a very flexible interface to
 the file system
-[Music]
+
 sometimes you have to deal with what's
 known as big data
 now big data is when the amount of data
@@ -980,7 +979,7 @@ online algorithms
 because basically we have to be working
 through the data
 online as we go
-[Music]
+
 now it turns out that sorting on very
 large amounts of data
 has become a really big deal these days
@@ -1247,6 +1246,3 @@ and i can't really do justice in one
 video but
 that's about it for today anyway see you
 next time
-[Music]
-so
-you
