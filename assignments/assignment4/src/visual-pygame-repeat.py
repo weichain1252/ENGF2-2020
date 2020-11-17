@@ -3,6 +3,7 @@ from arguments import parser
 from board import Board, Direction, Rotation
 from constants import BOARD_WIDTH, BOARD_HEIGHT, DEFAULT_SEED, INTERVAL, BLOCK_LIMIT
 from player import Player, SelectedPlayer
+from exceptions import BlockLimitException
 
 import pygame
 
@@ -143,4 +144,9 @@ def run(seed):
 
 if __name__ == '__main__':
     for seed in range(1000):
-        run(seed)
+        print(seed)
+        try:
+            run(seed)
+        except BlockLimitException:
+            print("out of blocks")
+            
