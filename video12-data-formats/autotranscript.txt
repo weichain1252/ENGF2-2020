@@ -503,7 +503,7 @@ possible characters so you're obviously
 going to need
 more than that and so the canonical
 representation for unicode
-typically is destroyed in a in a 32-bit
+typically is to store it in a in a 32-bit
 integer for each of these values
 which would be fine except for it's not
 very efficient and so
