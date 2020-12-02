@@ -1,4 +1,4 @@
-Welcome to Networked Pong
+# Welcome to Networked Pong
 
 This game uses UDP ports 9872 and 9873 - two ports are used to allow
 local testing on localhost, because both pong instances cannot open
@@ -9,16 +9,16 @@ starting pong, whereas player 1 must not specify "-s".
 
 Other command line flags:
 
--a
+'-a'
   Specifies that the game will autoplay.  The AI's bat is yellow.
 
--c <ip-address>
+'-c <ip-address>'
   Connect to the remote IP address specified
 
--l <lossrate>
+'-l <lossrate>'
   Emulate packet loss at the specified percentage
 
--d <delay>
+`-d <delay>`
   Emulate one-way network latency.  Value is in milliseconds
 
 To play against yourself locally, with player 2 auto-playing:
