@@ -9,13 +9,13 @@ starting pong, whereas player 1 must not specify "-s".
 
 Other command line flags:
 
-'-a'
+`-a`
   Specifies that the game will autoplay.  The AI's bat is yellow.
 
-'-c <ip-address>'
+`-c <ip-address>`
   Connect to the remote IP address specified
 
-'-l <lossrate>'
+`-l <lossrate>`
   Emulate packet loss at the specified percentage
 
 `-d <delay>`
@@ -24,19 +24,19 @@ Other command line flags:
 To play against yourself locally, with player 2 auto-playing:
 
 Player 1:
-  python pong.py
+  `python pong.py`
 
 Player 2:
-  python pong.py -s -a
+  `python pong.py -s -a`
 
 
 With player 1 on 10.0.0.1 and player 1 on 10.0.0.2, both players manual:
 
 Player 1:
-  python pong.py -c 10.0.0.2
+  `python pong.py -c 10.0.0.2`
 
 Player 2:
-  python pong.py -s -c 10.0.0.1
+  `python pong.py -s -c 10.0.0.1`
 
 
 
